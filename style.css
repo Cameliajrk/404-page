@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+}
+
+.titre {
+    animation-name: move;
+    animation-duration: 7s;
+}
+
+@keyframes move {
+    from{transform: translateX(200px);
+    opacity: 0;
+    }
+    to {transform: translateX(0px);
+    opacity: 1}
+    }
+
+body {
+    background-image: url(source.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#navigation {
+    list-style: none;
+}
+
+a:link {
+    color: blue;
+}
+
+a:hover {
+    background-color: red;
+}
+
+img {
+    border-radius: 50%;
+    border-image: black;
+}
+
+p {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    position: relative;
+    top: 427px;
+}
